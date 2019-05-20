@@ -9,6 +9,7 @@ resource "tfe_workspace" "app5" {
   
   vcs_repo {
     identifier = "jacobm3/jenkins-app5-dev"
+    oauth_token_id = "944bc656579c78be1170"
     }
 }
 
